@@ -1,0 +1,15 @@
+.columns {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .column {
+    width: calc(33.33% - 20px);
+    height: auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  

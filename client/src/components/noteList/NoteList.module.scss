@@ -1,0 +1,76 @@
+.list {
+    list-style: none;
+    margin-top: 30px; 
+    width: 55%;
+    font-size: 20px;
+    min-height: 54vh;
+  }
+  
+  .listItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 2px solid #ccc; 
+    background-color: #f8f9fa; 
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .listItem:hover {
+    background-color: #e9ecef; 
+  }
+  
+  .editButtonContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .editButtonContainer > *:not(:last-child) {
+    margin-right: 10px; 
+  }
+  
+  .updateButton,
+  .cancelButton {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancelButton {
+    background-color: rgb(216, 38, 38);
+    margin-left: 10px;
+  }
+  
+  .updateButton:hover {
+    background-color: #218838;
+  }
+  
+  .editIcon,
+  .deleteIcon {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .editIcon:hover,
+  .deleteIcon:hover {
+    color: #dc3545;
+  }
+  
+  .editInput {
+    border: 1px solid #ced4da;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .editInputActive {
+    background-color: transparent;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 4px;
+    outline: none;
+    border: none; 
+  }
